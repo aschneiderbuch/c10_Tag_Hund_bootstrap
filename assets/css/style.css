@@ -26,4 +26,8 @@ testMargin___null {
   font-size: calc(1rem + 1.5vw) !important;
 }
 
+.testShadow {
+  box-shadow: 10px 10px 10px rgba(9, 208, 112, 0.508) !important;
+}
+
 /*# sourceMappingURL=style.css.map */

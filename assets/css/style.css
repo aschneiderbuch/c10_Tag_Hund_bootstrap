@@ -1,5 +1,6 @@
-.test {
-  color: red;
+.testColor {
+  color: wheat;
+  font-size: calc(1.375rem + 5.5vw) !important;
 }
 
 /* 
@@ -9,6 +10,20 @@ html{
   Default 100% is 16px. All rem will adapt accordingly if user changes browser font size. */
 .backGroundColorTextNebenHund {
   background-color: #d28883;
+}
+
+testMargin___null {
+  margin-left: 10px !important;
+}
+
+.col-xxl-4 h2 {
+  color: #d28883;
+  font-size: calc(1.375rem + 5.5vw) !important;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.col-xxl-4 p {
+  font-size: calc(1rem + 1.5vw) !important;
 }
 
 /*# sourceMappingURL=style.css.map */

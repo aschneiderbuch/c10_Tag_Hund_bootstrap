@@ -1,0 +1,15 @@
+.test{
+    color: red;
+  }
+
+
+
+/* 
+damit muss man nicht immer px in rem umrechnen, weil rem einfach 10x ist
+html{ 
+  font-size: 62.5%;}
+  Default 100% is 16px. All rem will adapt accordingly if user changes browser font size. */
+ 
+.backGroundColorTextNebenHund{
+  background-color: #d28883 ;
+}

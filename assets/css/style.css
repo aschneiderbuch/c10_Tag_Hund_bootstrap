@@ -30,4 +30,8 @@ testMargin___null {
   box-shadow: 10px 10px 10px rgba(9, 208, 112, 0.508) !important;
 }
 
+.testBorderRadiusTop {
+  border-radius: 2rem 2rem 0 0 !important;
+}
+
 /*# sourceMappingURL=style.css.map */

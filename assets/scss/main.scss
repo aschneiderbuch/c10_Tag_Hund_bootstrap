@@ -12,7 +12,15 @@
   font-size: calc(0.375rem + 2.5vw) !important;
 }
 
+/* .testGapColumn{
+  column-gap:1px !important;
+}
+ */
 
+/* .testWidthBegrenzen{
+  max-width:90rem !important;
+}
+ */
 /* 
 damit muss man nicht immer px in rem umrechnen, weil rem einfach 10x ist
 html{ 
@@ -21,6 +29,7 @@ html{
 
 .backGroundColorTextNebenHund {
   background-color: #d28883;
+  transition: background-color 2s ease-in !important;
 }
 
 testMargin___null {
@@ -42,8 +51,23 @@ testMargin___null {
 }
 
 .testShadow{
-  box-shadow: 10px 10px 10px rgba(9, 208, 112, 0.508)!important;
+  box-shadow: 30px 30px 5px rgba(9, 208, 112, 0.508)!important;
+animation: shadowWelle !important;
+
+  /* transition: box-shadow 1s ease-in-out/* infinite */ 
 }
+@keyframes shadowWelle {
+  0%{
+    box-shadow: 30px 30px 10px rgba(9, 208, 112)
+  }
+   50%{
+    box-shadow: 30px 10px 30px rgb(228, 77, 2)
+   }
+   100%{
+    box-shadow: 30px 10px 10px  rgb(162, 9, 208)
+   }
+}
+
 
 .testBorderRadiusTop{
 border-radius: 2rem 2rem 0 0 !important;

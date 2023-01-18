@@ -50,22 +50,23 @@ testMargin___null {
   }
 }
 
-.testShadow{
-  box-shadow: 30px 30px 5px rgba(9, 208, 112, 0.508)!important;
-animation: shadowWelle !important;
-
-  /* transition: box-shadow 1s ease-in-out/* infinite */ 
+#testShadow{
+  animation-name: shadowWave;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
 }
-@keyframes shadowWelle {
-  0%{
-    box-shadow: 30px 30px 10px rgba(9, 208, 112)
+
+@keyframes shadowWave {
+  0% {
+    box-shadow: 30px 30px 10px rgba(9, 208, 112);
   }
-   50%{
-    box-shadow: 30px 10px 30px rgb(228, 77, 2)
-   }
-   100%{
-    box-shadow: 30px 10px 10px  rgb(162, 9, 208)
-   }
+  50% {
+    box-shadow: 30px 10px 30px rgb(228, 77, 2);
+  }
+  100% {
+    box-shadow: 30px 10px 10px rgb(162, 9, 208);
+  }
 }
 
 
